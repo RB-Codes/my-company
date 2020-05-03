@@ -17,6 +17,7 @@ function confirm() {
      }
    }
 
-   function welcome(
-        text = ("wlcome")
-   )
+   function welcome() {
+          alert("Welcome")
+
+        }
