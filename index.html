@@ -13,9 +13,15 @@
 </head>
 
 <body>>
+
     <header>
         <h1>
             Creation Company
+
+            <form Join="myForm" action="/index.html" onsubmit="return validateForm()" method="post">
+                Name: <input type="text" Join="fname">
+                <input type="submit" value="Thanks">
+              </form>
 
         </h1>
         <nav>
@@ -36,6 +42,9 @@
             </ul>
         </nav>
     </header>
+
+    <button klik="confirm()">kindly click</button>
+
     <main>
         <article>
             <section>
@@ -68,6 +77,15 @@
                 Thank you (C) 2020
             </p>
         </footer>
+
+        
+
+        <script src="company.js">
+
+            function confirm() {
+                return confirm;
+            }
+        </script>
 </body>
 
 </html>
